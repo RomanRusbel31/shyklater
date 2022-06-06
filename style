@@ -1,0 +1,103 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-bar{
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+ul.nav{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.nav li { 
+    display: inline; 
+}
+ul.nav a {
+    display: inline-block;
+    width: 5em;
+    padding:10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+ul.nav a:hover{
+    color: #4bfd4b;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+}
+
+.image{
+    flex: 0 0 400px;
+    width: 2em;
+    height: 400px;
+    background-image: url('https://migratop.com/wp-content/uploads/vrachi-v-ispanii.jpg');
+    background-size: cover;
+    border-radius: 100%;
+    display: inline-block;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+}
+.text{
+    flex: 1 1 25%;
+    width: 2em;
+    height: 700px;
+    display: inline-block;
+    font-size: 32px;
+    margin-left: 20px;
+}
+.text h1{
+    text-align: center;
+    color: #333;
+}
+.text li{
+    text-decoration: none;
+}
+
+
+#content-blog{
+    width: 80%;
+    margin-left: 10%;
+
+}
+#content-blog h1{
+    text-align: center;
+    
+}
+.image-me{
+    background-image: url('https://sun9-2.userapi.com/s/v1/if2/1Ngldplof6LHYWowDm262I0_56-7ZqHrMw0-9iZxFF5mSZ9j8YjLspazoajQYZswSmuox7-cCA8wU7m_lq43Omt_.jpg?size=810x1080&quality=96&type=album');
+    background-size: cover;
+    flex: 0 0 400px;
+    width: 2em;
+    height: 400px;
+    border-radius: 100%;
+    display: inline-block;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+}
+.imggg{
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+h2{
+    size: 15px;
+    color: #333;
+    margin: 5px;
+}
+.ol-inect li{
+    font-size: 26px;
+}
+.img1{
+    height: 300px;
+    float: right;
+    margin-left: 10px;
+
+}
